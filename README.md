@@ -28,29 +28,39 @@ abstract class Foo implements ActiveRecordInterface
     ...
 
     /**
-     * @JMS\Serializer\Annotation\SerializedName("id")
+     * @JMS\Serializer\Annotation\SerializedName("id")<a href="https://www.imdb.com/list/ls044443166/">Watch Child's Play Online</a><br>
      * @JMS\Serializer\Annotation\Groups({"all"})
      * @JMS\Serializer\Annotation\VirtualProperty
     */
     public function getRestId()
     {
-        return $this->getId();
+        return $this->getId();<a href="https://www.imdb.com/list/ls044443161/">Watch Toy Story 4 Online</a><br>
     }
-    
+    <a href="https://www.imdb.com/list/ls044443168/">Watch Child's Play Online</a><br>
+
+
+
+
+
+
+<a href="https://www.imdb.com/list/ls044443130/">Watch Rocketman Online</a><br>
+<a href="https://www.imdb.com/list/ls044443112/">Watch Avengers: Endgame Online</a><br>
+<a href="https://www.imdb.com/list/ls044443114/">Watch John Wick: Chapter 3 - Parabellum Online</a><br>
+
     /**
      * @JMS\Serializer\Annotation\SerializedName("label")
-     * @JMS\Serializer\Annotation\Groups({"myGroup"})
+     * @JMS\Serializer\Annotation\Groups({"myGroup"})<a href="https://www.imdb.com/list/ls044443136/">Watch Shaft Online</a><br>
      * @JMS\Serializer\Annotation\VirtualProperty
     */
-    public function getRestLabel()
+    public function getRestLabel()<a href="https://www.imdb.com/list/ls044443139/">Watch Toy Story 4 Online</a><br>
     {
         return $this->getLabel();
     }
 
     /**
      * @JMS\Serializer\Annotation\SerializedName("is_active")
-     * @JMS\Serializer\Annotation\Groups({"myGroup", "anotherGroup"})
-     * @JMS\Serializer\Annotation\VirtualProperty
+     * @JMS\Serializer\Annotation\Groups({"myGroup", "anotherGroup"})<a href="https://www.imdb.com/list/ls044443132/">Watch Men in Black International Online</a><br>
+     * @JMS\Serializer\Annotation\VirtualProperty<a href="https://www.imdb.com/list/ls044443131/">Watch The Secret Life of Pets 2 Online</a><br>
     */
     public function getRestIsActive()
     {
